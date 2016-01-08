@@ -1,0 +1,13 @@
+{
+  "name": "sapui5",
+  "repo": "nefiltari/sapui5",
+  "version": "0.0.1",
+  "main": "public/js/app.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ],
+  "dependencies": {
+  }
+}

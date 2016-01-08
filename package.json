@@ -1,0 +1,39 @@
+{
+  "name": "sapui5",
+  "version": "0.0.1",
+  "description": "The SAPUI5 Prototype for the SAP HANA Master Project.",
+  "author": "Francesco Möller",
+  "private": true,
+  "license": "MIT",
+  "keywords": [
+    "sapui5",
+    "sap",
+    "ui5",
+    "hana",
+    "prototype",
+    "studium"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nefiltari/sapui5"
+  },
+  "scripts": {
+    "init": "scripts/init.sh",
+    "start": "scripts/start.sh",
+    "watch": "scripts/development.sh",
+    "build": "scripts/production.sh"
+  },
+  "dependencies": {
+    "auto-reload-brunch": "^1.8.1",
+    "babel-brunch": "^6.0.0",
+    "bower": "^1.7.2",
+    "brunch": "^2.1.2",
+    "coffee-script": "^1.10.0",
+    "coffee-script-brunch": "^1.8.3",
+    "css-brunch": "^1.7.0",
+    "express": "^4.13.3",
+    "javascript-brunch": "^1.8.0",
+    "less-brunch": "^1.8.1",
+    "uglify-js-brunch": "^1.7.8"
+  }
+}
