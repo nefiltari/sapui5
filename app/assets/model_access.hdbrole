@@ -1,0 +1,3 @@
+role ul.student_007.sapui5::model_access {
+	application privilege: ul.student_007.sapui5::Basic;
+}

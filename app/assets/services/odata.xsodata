@@ -1,0 +1,3 @@
+service {
+  "UL_STUDENT_004"."UL_SALES_004" as "sales";
+}

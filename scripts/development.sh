@@ -1,3 +1,3 @@
 #!/bin/bash
-rm -rf public
+rm -rf public/*
 node_modules/.bin/brunch watch --server

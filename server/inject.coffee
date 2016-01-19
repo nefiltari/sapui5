@@ -4,6 +4,7 @@ module.exports = (port, path, cb) ->
   app = do express
   entrypoint = express.static path
   app.use entrypoint
-  server = http.createServer(app).listen port, cb
+  server = http.createServer(app)
+  server.listen port, cb
   # Additional Logic goes here!
   server

@@ -1,0 +1,17 @@
+{
+  "name": "sapui5-brunch",
+  "version": "0.0.1",
+  "description": "A Brunch plugin for SAPUI5 applications.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sapui5",
+    "ui5",
+    "brunch",
+    "plugin"
+  ],
+  "author": "Francesco Möller",
+  "license": "ISC"
+}

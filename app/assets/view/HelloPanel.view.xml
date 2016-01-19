@@ -1,0 +1,28 @@
+<mvc:View
+   controllerName="sap.ui.pt.hana.controller.HelloPanel"
+   xmlns="sap.m"
+   xmlns:mvc="sap.ui.core.mvc">
+  <Panel
+    headerText="{i18n>helloPanelTitle}"
+    class="sapUiResponsiveMargin"
+    width="auto">
+    <content>
+      <Button
+         text="{i18n>openDialogButtonText}"
+         press="onOpenDialog"
+         class="sapUiSmallMarginEnd"
+         icon="sap-icon://world"/>
+      <Button
+        text="{i18n>showHelloButtonText}"
+        press="onShowHello"
+        class="myCustomButton"/>
+      <Input
+        value="World"
+        valueLiveUpdate="true"
+        width="60%"/>
+      <Text
+        text="Hello World"
+        class="sapUiSmallMargin sapThemeHighlight-asColor myCustomText"/>
+    </content>
+  </Panel>
+</mvc:View>
